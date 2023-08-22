@@ -1,0 +1,86 @@
+@font-face {
+    font-family: OdinFont;
+    src: url(./font/Norse-Bold.otf);
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-image: url(./pictures/halie-west-UWni0vqQotc-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.rightSide{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d3436;
+}
+
+.textSection, .formSection, .submitSection{
+    height: 33%;
+}
+
+.odinBar{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    background-color: #2d343676;
+    margin: 30% 0% 50% 0%;
+    height: 15%;
+}
+
+.odinLogo{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.logosname{
+    font-family: odinFont;
+    margin: 0;
+    font-size: 6vw;
+}
+
+.inFooterRight{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.footerRight{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 10px
+}
+
+.cred{
+    padding: 0px 3px;
+}
+
+a:visited {
+    color: white;
+}
