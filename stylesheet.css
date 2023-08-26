@@ -34,6 +34,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #2d3436;
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .textSection, .formSection, .submitSection{
@@ -98,4 +100,18 @@ body{
 
 .cred:visited {
     color: white;
+}
+
+.textSection{
+    color: white;
+    padding: 8% 20% 5% 5%;
+}
+
+.formSection{
+    color: #a16207;
+    margin-top: 2%;
+    padding: 1% 5% 5% 5%;
+    border: 1px solid #2d343676;
+    box-shadow: 5px 5px 18px black;
+    background-color: #343a40;
 }
