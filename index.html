@@ -28,9 +28,41 @@
             </p>
         </div>
         <div class="formSection">
-            <h3 class="letsdothis">Let's do this!</h3>
+            <h4 class="letsdothis">Let's do this!</h4>
+            <div class="bars">
+                <div class="leftBars">
+                    <form action="#" method="post" class="bar">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="your name" required>
+                    </form>
+                    <form action="#" method="post" class="bar">
+                        <label for="userEmail">EMAIL</label>
+                        <input type="email" name="userEmail" id="userEmail" placeholder="you@example.com" required>
+                    </form>
+                    <form action="#" method="post" class="bar">
+                        <label for="userPassword">PASSWORD</label>
+                        <input type="password" name="userPassword" id="userPassword" placeholder="enter at least 8 characters" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                    </form>
+                </div>
+                <div class="rightBars">
+                    <form action="#" method="post" class="bar">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="your last name" required>
+                    </form>
+                    <form action="#" method="post" class="bar">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </form>
+                    <form action="#" method="post" class="bar">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="submitSection"></div>
+        <div class="submitSection">
+            
+        </div>
     </div>
 </body>
 </html>
